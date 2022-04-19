@@ -4,19 +4,16 @@ A community standard library for Common Lisp.
 ## Text Processing
 
 #### Common string operations
-#### Regular expression operations
-#### Helpers for computing deltas
+#### Regular expressions
+#### Diffs and Deltas
 #### Text wrapping and filling
 #### Unicode Database
 #### Internet String Preparation
 #### GNU readline interface
-#### Completion function for GNU readline
-
 
 ## Binary Data
 
 #### Interpret bytes as packed binary data
-#### Codec registry and base classes
 
 ## Data Types
 
@@ -24,10 +21,8 @@ A community standard library for Common Lisp.
 #### IANA time zone support
 #### General calendar-related functions
 #### Container datatypes
-#### Abstract Base Classes for Containers
 #### Heap queue algorithm
 #### Array bisection algorithm
-#### Efficient arrays of numeric values
 #### Weak references
 #### Dynamic type creation and names for built-in types
 #### Shallow and deep copy operations
@@ -37,7 +32,6 @@ A community standard library for Common Lisp.
 
 ## Numeric and Mathematical Modules
 
-#### Numeric abstract base classes
 #### Mathematical functions
 #### Mathematical functions for complex numbers
 #### Decimal fixed point and floating point arithmetic
@@ -66,9 +60,9 @@ A community standard library for Common Lisp.
 
 ## Data Persistence
 
-Object serialization/Persistence
-Interfaces to Unix “databases”
-DB-API 2.0 interface for SQLite databases
+#### Object serialization/Persistence
+#### Interfaces to Unix “databases”
+#### SQLite
 
 ## Data Compression and Archiving
 
@@ -99,7 +93,7 @@ DB-API 2.0 interface for SQLite databases
 #### Time access and conversions
 #### Parser for command-line options, arguments and sub-commands
 #### C-style parser for command line options
-#### Logging facility for Python
+#### Logging facility
 #### Portable password input
 #### Terminal handling for character-cell displays (curses)
 #### Access to underlying platform’s identifying data
